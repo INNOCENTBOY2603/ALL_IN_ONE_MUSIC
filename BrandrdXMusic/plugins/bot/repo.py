@@ -27,7 +27,7 @@ async def start(_, msg):
              ],
      
              [
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/NAKSH_X_UPDATES"),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=config.SUPPOER_CHANNEL),
              ],
      
               ]
