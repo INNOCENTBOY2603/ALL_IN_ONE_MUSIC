@@ -27,7 +27,7 @@ async def start(_, msg):
              ],
      
              [
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=config.SUPPOER_CHANNEL),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=config.SUPPORT_CHANNEL),
              ],
      
               ]
