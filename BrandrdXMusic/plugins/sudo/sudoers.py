@@ -47,8 +47,8 @@ async def userdel(client, message: Message, _):
 @app.on_message(filters.command(["sudolist", "listsudo", "sudoers"]) & ~BANNED_USERS)
 @language
 async def sudoers_list(client, message: Message, _):
-    if message.from_user.id not in SUDOERS:
-        return await message.reply_text("💔 <b>ᴏᴡɴᴇʀs:</b>\n1➤ <a href='https://t.me/BRANDED_WORLD'>🇷🇺⛦°𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🇳</a>",
+    if message.from_user.id not OWNER_ID:
+        return await message.reply_text("💔 <b>ᴏᴡɴᴇʀs:</b>\n1➤ <a href='https://t.me/TFW_UPDATES'>🇷🇺⛦°MOON 𓆩🇽𓆪 𝗞𝗜𝗡𝗚🇳</a>",
         disable_web_page_preview=True,
         parse_mode="html")
     text = _["sudo_5"]
