@@ -1,6 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from BrandrdXMusic import app
+import config
 
 BOT_USERNAME = "NAKSH_X_MUSICBOT"
 
@@ -22,7 +23,7 @@ async def start(_, msg):
      
             [
              InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/tera_prince_hu_jaan"),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/NAKSH_X_UPLOADS"),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
              ],
      
              [
