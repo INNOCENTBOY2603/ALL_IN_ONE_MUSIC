@@ -1,6 +1,8 @@
 telethon==1.33.1
 aiofiles
 apscheduler
+bs4
+bard
 aiohttp==3.9.3
 asyncio==3.4.3
 gTTS
